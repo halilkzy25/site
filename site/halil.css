@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+header :nth-child(1) {
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header>table {
+    float: right;
+    text-indent: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: -5vh;
+}
+
+article :nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+article img {
+    margin-left: 300px;
+    height: 600px;
+    width: 600px;
+}
+
+nav>a:nth-child(1) {
+    background-image: url(kadın/nike-kadin-esofman-takim-trk-suit-pk-638-121148.jpg);
+}
+
+nav>a:nth-child(2) {
+    background-image: url(kadın/5002670233_001_01.jpg);
+}
+
+nav>a:nth-child(3) {
+    background-image: url(kadın/00ebde42-6e59-43fa-a8d4-06a76c8fb6ad_size600x600_cropCenter.jpg);
+}
+
+nav>a:nth-child(4) {
+    background-image: url(erkek/10579430998066.jpg);
+}
+
+nav>a:nth-child(5) {
+    background-image: url(erkek/10678349463602.jpg);
+}
+
+nav>a:nth-child(6) {
+    background-image: url(erkek/2KAM42177NK999_G01_zoom1_V03.jpg);
+}
+
+body p {
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 1400px;
+}
+
+nav a div span {
+    height: min-content;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav a div {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 600px;
+}
+
+nav a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main>a:nth-child(1) {
+    background-image: url(esya/10478168932402.jpg);
+}
+
+main>a:nth-child(2) {
+    background-image: url(esya/10586288980018.jpg);
+}
+
+main>a:nth-child(3) {
+    background-image: url(esya/225382221_.jpg);
+}
+
+main>a:nth-child(4) {
+    background-image: url(esya/b-diesel-fitness-x9-profesyonel-kosu-bandi.jpg);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 1400px;
+}
+
+main div {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 600px;
+}
+
+main a div span {
+    height: min-content;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
